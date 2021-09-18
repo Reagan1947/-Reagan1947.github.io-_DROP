@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <p id="title">Choice Your Peace Level ?!</p>
+    </div>
+
+    <div id="box">
+    <div class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                				
+                    <img src="https://cdn.joypixels.com/products/previews/O6D7BMG8R2DMMNC4LLZH/2324_b569aOoF2SsK5hFJJlu9wyaO5GP8rviH.gif">
+                    <p class="tag">0 - Fuck Me! Dady!</p>
+                </li>
+                <li class="splide__slide">
+                				
+                    <img src="https://cdn.joypixels.com/products/previews/O6D7BMG8R2DMMNC4LLZH/2304_q4MLtmc7BVILKnAWzHaf9RcRSZhkNNzi.gif">
+                    <p class="tag">1 - Horn So Much</p>
+                </li>
+                <li class="splide__slide">
+
+                    <img src="https://cdn.joypixels.com/products/previews/O6D7BMG8R2DMMNC4LLZH/2305_biSFwtwQo6OpAc8fZNL0sRSTtJXE4hMT.gif">
+                    <p class="tag">2 - Wanna!</p>
+                </li>
+                <li class="splide__slide">
+                    <img src="https://cdn.joypixels.com/products/previews/O6D7BMG8R2DMMNC4LLZH/2325_HMMg8klxSQK2Kbiydo224dm3RT2DeHgM.gif">
+                    <p class="tag">3 - Will Peace</p>
+
+                </li>
+
+                <li class="splide__slide">
+                    <img src="https://cdn.joypixels.com/products/previews/O6D7BMG8R2DMMNC4LLZH/2311_1hGcwOlOK6CDJaItpeRaYzO1Lh8DPFFK.gif">
+                    <p class="tag">3 - Peace Man</p>
+
+                </li>
+
+                <li class="splide__slide">
+                    <img src="https://cdn.joypixels.com/products/previews/O6D7BMG8R2DMMNC4LLZH/2301_K2D71kEFdlh7edrAnz37xqUN6YtWKPWV.gif">
+                    <p class="tag">4 - Peace Full</p>
+
+                </li>
+
+                <li class="splide__slide">
+                    <img src="https://cdn.joypixels.com/products/previews/O6D7BMG8R2DMMNC4LLZH/2300_nuXF4j554T6ok2VRKeuFU4iiRoZWEW61.gif">
+                    <p class="tag">5 - Peace!!</p>
+
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+	document.addEventListener( 'DOMContentLoaded', function () {
+		new Splide( '.splide', {
+	type   : 'loop',
+	perPage: 3,
+	focus  : 'center',
+
+} ).mount();
+	} );
+</script>
+<style>
+    #box {
+      width: 100%;
+      height: 850px;
+      /* background: lightpink; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .splide {
+      width: 800px;
+      height: auto;
+      /* background: blue; */
+  
+    }
+
+    img {
+        width: 128px;
+        height: 128px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .splide__slide {
+        text-align: center;
+    }
+    
+    .tag {
+        padding-bottom: 30px;
+    }
+
+    #title {
+        position: relative;
+        top: 200px;
+        font-size: 50px;
+        font-weight: bold;
+        color: #2f2f2f;
+    }
+  </style>
+</html>
